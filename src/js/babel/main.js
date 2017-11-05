@@ -2,6 +2,7 @@
 'use strict';
 
 const draggableContainer = document.getElementById('main-draggable');
+// create new instance of Boxes class and init() to create boxes
 const boxes = new Boxes(12, 4, draggableContainer, '200px');
 boxes.init();
 

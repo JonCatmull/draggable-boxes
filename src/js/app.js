@@ -449,6 +449,7 @@ var Boxes = function () {
 'use strict';
 
 var draggableContainer = document.getElementById('main-draggable');
+// create new instance of Boxes class and init() to create boxes
 var boxes = new Boxes(12, 4, draggableContainer, '200px');
 boxes.init();
 
