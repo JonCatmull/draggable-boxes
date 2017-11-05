@@ -1,0 +1,16 @@
+.button {
+    @include transition(all);
+    background-color: $button-color-bg;
+    color: $button-color-text;
+    text-transform: capitalize;
+    border: 2px solid darken($button-color-bg, $button-darken);
+    padding: 10px 15px;
+    font-size: $button-font-size;
+    font-weight: $semibold;
+    border-radius: 4px;
+    cursor: pointer;
+    &:hover {
+        background-color: lighten($button-color-bg, $button-lighten);
+        border-color: lighten(darken($button-color-bg, $button-darken), $button-lighten);
+    }
+}

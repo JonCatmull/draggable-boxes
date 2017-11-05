@@ -1,0 +1,17 @@
+// Text
+
+@mixin text($size, $l-height: null, $weight: null, $color: null) {
+  font-size: $size;
+  line-height: $l-height;
+  font-weight: $weight;
+  color: $color;
+}
+
+// Transitions
+
+@mixin transition($attr, $attr2: null, $attr3: null, $attr4: null) {
+  -webkit-transition: $attr .2s ease-in-out, $attr2 .2s ease-in-out, $attr3 .2s ease-in-out, $attr4 .2s ease-in-out;
+  -moz-transition: $attr .2s ease-in-out, $attr2 .2s ease-in-out, $attr3 .2s ease-in-out, $attr4 .2s ease-in-out;
+  -o-transition: $attr .2s ease-in-out, $attr2 .2s ease-in-out, $attr3 .2s ease-in-out, $attr4 .2s ease-in-out;
+  transition: $attr .2s ease-in-out, $attr2 .2s ease-in-out, $attr3 .2s ease-in-out, $attr4 .2s ease-in-out;
+}

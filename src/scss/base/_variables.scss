@@ -1,0 +1,46 @@
+// Descriptive color variables
+
+$white              : #fff;
+$black              : #000;
+$porcelain1         : #ebeced;
+$porcelain2         : #eff0f1;
+$denim              : #1063d5;
+$mariner            : #256fd3;
+$cinnabar           : #E43E43;
+
+// Functional color variables
+$color-1            : $porcelain1;
+
+$color-text-white   : $white;
+$color-text-base    : $black;
+
+
+
+// Font stacks
+
+$stack-sans-serif   : Helvetica, Arial, sans-serif;
+$stack-open-sans    : 'Open Sans', $stack-sans-serif;
+
+// Font variables
+
+$semibold	        : 600;
+$lighter	        : 400;
+
+// Functional button variables
+$button-color-bg       : $mariner;
+$button-color-text     : $white;
+$button-darken         : 10%;
+$button-lighten        : 10%;
+$button-font-size      : 16px;
+
+// Functional icons variables
+$icon-recycle-bg       : $cinnabar;
+
+
+
+// Media queries variables
+$break-xs              : '(min-width: 375px)';
+$break-sm              : '(min-width: 768px)';
+$break-md              : '(min-width: 992px)';
+$break-lg              : '(min-width: 1200px)';
+$media-x2              : '(-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi)';
