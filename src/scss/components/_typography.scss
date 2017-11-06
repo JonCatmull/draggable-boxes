@@ -1,0 +1,6 @@
+h1, h2, h3, h4, h5, h6 {
+    @include text(3rem, 1.5, $semibold, $color-text-base);
+    font-family: $stack-sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}

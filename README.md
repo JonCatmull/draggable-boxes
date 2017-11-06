@@ -14,12 +14,17 @@ Draggable Boxes uses a number of open source Node modules for development:
 * [JSDoc 3](https://github.com/jsdoc3/jsdoc) - An API documentation generator for JavaScript
 * [Docdash](https://github.com/clenemt/docdash) - Lodash inspired JSDoc 3 template/theme
 
+### Example page
+Draggable Boxes example page [here](https://smoockpp.github.io/draggable-boxes/dist/).
+
+### Documentation
+Draggable Boxes documentation [here](https://smoockpp.github.io/draggable-boxes/out/).
 
 ### Installation
 
 Draggable Boxes in development requires [Node.js](https://nodejs.org/) v4+ to run.
 
-Clone and install the dependencies and devDependencies from [Draggable Boxes](https://github.com/smoockpp/draggable-boxes) reop.
+Clone and install the dependencies and devDependencies from [Draggable Boxes](https://github.com/smoockpp/draggable-boxes) repo.
 
 ```sh
 $ git clone https://github.com/smoockpp/draggable-boxes.git
