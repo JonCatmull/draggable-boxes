@@ -35,13 +35,18 @@ $ npm install
 Draggable Boxes uses Gulp for fast developing.
 Make a change in your file and instantanously see your updates!
 
-Open your favorite Terminal and run thid command to start watching for file changes.
+Open your favorite Terminal and run this command within the project directory to start watching for file changes.
 
 ```sh
 $ gulp serve
 ```
-
 Now you can see the server running at http://localhost:3000. Will be listening for changes in files
+
+To generate documentation run this command within the project directory
+```sh
+$ jsdoc src/js/babel/Boxes.js ./README.md -t node_modules/docdash/
+```
+
 
 
 ### Todos
