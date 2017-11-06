@@ -423,6 +423,7 @@ var Boxes = function () {
                     that.targetContainer.appendChild(that.boxesPlaceholder[_i3]);
                     that.boxesPlaceholder[_i3].setAttribute('data-order', _i3);
                     that.boxesPlaceholder[_i3].classList.remove('deleted');
+                    that.reorderBoxes(0);
                 }
             }, 300);
         }

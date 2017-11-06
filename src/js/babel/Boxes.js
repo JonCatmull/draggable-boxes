@@ -416,6 +416,7 @@ class Boxes {
                 that.targetContainer.appendChild(that.boxesPlaceholder[i]);
                 that.boxesPlaceholder[i].setAttribute('data-order', i);
                 that.boxesPlaceholder[i].classList.remove('deleted');
+                that.reorderBoxes(0);
             }
         }, 300);
     };
